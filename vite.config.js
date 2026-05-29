@@ -1,4 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({plugins: [react()],})
+"scripts": {
+    "dev": "vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  }
